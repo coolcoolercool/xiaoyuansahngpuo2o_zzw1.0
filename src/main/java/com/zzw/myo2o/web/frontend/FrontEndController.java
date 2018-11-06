@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 
 @Controller
-@RequestMapping("frontend")
+@RequestMapping("/frontend")
 public class FrontEndController {
 
     @RequestMapping(value="/index", method= RequestMethod.GET)

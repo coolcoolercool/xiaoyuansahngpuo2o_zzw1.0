@@ -18,8 +18,10 @@ public class PathUtil {
         String basePath = "";
         if(os.toLowerCase().startsWith("win")){
             basePath = "F:\\javaCode\\OfferProduct\\xioayuanshangpu\\Image\\win\\";
+            //basePath="";
         }else{
             basePath="F:\\javaCode\\OfferProduct\\xioayuanshangpu\\Image\\others\\";
+            //basePath="";
         }
         basePath = basePath.replace("/", separator);
         return basePath;
